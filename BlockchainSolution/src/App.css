@@ -1,0 +1,28 @@
+.btn-primary {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #959595 !important;
+  background-color: #e4e4e4 !important;
+  border-color: #e4e4e4 !important;
+}
+
+.btn-primary:hover{
+  background-color: #0050b3;
+  border-color: #0050b3;
+}
+
+a {
+  color:  #40a9ff;
+}
+
+a:hover {
+  color: h#0050b3;
+}
+
+/* Remove first line */
+.table.noHeaderLine > tbody > tr:first-child > td {
+  border: none;
+}
