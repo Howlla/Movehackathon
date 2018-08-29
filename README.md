@@ -3,17 +3,24 @@
 
 > A supply chain management platform with transparency & Efficiency in mind.
 
-ClearCargo has a decentralized application based on the Ethereum blockchain aiming to
+ClearCargo has
+1) A decentralized application based on the Ethereum blockchain aiming to
 let consumers see the data behind the products they ship & lets the authorities make
 better decisions. It currently consumers to place orders on the app and admins can login
 to access the admin dashboard that uses predictive analysis to tell the number of shipments
 on any particular day.
+
+2) A Machine Learning Implemented Platform which predicts the TRUCKLOAD capacity on each oday by
+studying past data. This way the plant can predict the amount of truckload on the upcoming days.
+This algorithm takes into account the weekdays, weekends, holidays for prediction.
 
 Keep in mind that **this is a proof of concept**. It is *not* production ready by any means.
 
 BlockchainSolution made using the Truffle toolkit, React.js, Redux, and Webpack.
 
 ## Live Demo
+
+## BLOCKCHAIN
 # REQUIRES METAMASK ON RINKEBY NETWORK
 >https://pure-shelf-59122.herokuapp.com/
 
@@ -73,4 +80,14 @@ BlockchainSolution made using the Truffle toolkit, React.js, Redux, and Webpack.
 * See the product's previous positions on a map
 * Combine products into one (STILL TESTING)
 * Split a product into many (STILL TESTING)
+
+## MACHINE LEARNING
+Visit cargoclear.herokuapp.com for the live working model
+
+
+TO RUN locally:
+
+
+ USE pip freeze -r requirements.txt to install al dependencies
+ USE python manage.py to runserver locally
 
