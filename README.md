@@ -14,7 +14,7 @@ Keep in mind that **this is a proof of concept**. It is *not* production ready b
 BlockchainSolution made using the Truffle toolkit, React.js, Redux, and Webpack.
 
 ## Live Demo
-#REQUIRES METAMASK ON RINKEBY NETWORK
+# REQUIRES METAMASK ON RINKEBY NETWORK
 >https://pure-shelf-59122.herokuapp.com/
 
 ## Installing / Getting started
